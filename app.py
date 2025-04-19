@@ -15,8 +15,7 @@ client = vision.ImageAnnotatorClient(credentials=credentials)
 
 gc = gspread.authorize(credentials)
 SHEET_ID = st.secrets["SHEET_ID"]
-SHEET_NAME = st.secrets["SHEET_NAME"]
-worksheet = gc.open_by_key(SHEET_ID).worksheet(SHEET_NAME)
+worksheet = gc.open_by_key(SHEET_ID).worksheet("Sheet1")
 
 # === TITLE ===
 st.title("📸 Grocery Receipt Scanner")
