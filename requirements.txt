@@ -1,6 +1,0 @@
-streamlit
-easyocr
-Pillow
-pandas
-gspread
-oauth2client
