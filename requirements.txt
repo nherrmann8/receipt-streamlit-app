@@ -1,0 +1,7 @@
+streamlit
+pandas
+google-cloud-vision
+google-auth
+google-auth-oauthlib
+gspread
+oauth2client
